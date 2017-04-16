@@ -64,7 +64,7 @@
 
 &lt;p&gt;That is a real JavaScript/Canvas implementation of &lt;a href=&#34;http://atlas.wolfram.com/01/01/150/&#34;&gt;Rule 150&lt;/a&gt;. The code can actually support any of the rules, &lt;a href=&#34;https://github.com/arrwhidev/cellular-automata/blob/master/wolfram.js&#34;&gt;take a look&lt;/a&gt; - it&amp;rsquo;s pretty flexible! These rules do not change over time. Each cell is computed only once, based on an initial state, working left to right, top to bottom.&lt;/p&gt;
 
-&lt;p&gt;The initial state is the first row. In this example every cell OFF except the middle cell, which is ON.&lt;/p&gt;
+&lt;p&gt;The initial state is the first row. In this example every cell is OFF except the middle cell, which is ON.&lt;/p&gt;
 
 &lt;p&gt;What about a random initial state?&lt;/p&gt;
 
