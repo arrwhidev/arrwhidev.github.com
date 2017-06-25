@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Particles on Arran White&#39;s Blog</title>
+    <link>https://arrwhidev.github.io/categories/particles/index.xml</link>
+    <description>Recent content in Particles on Arran White&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://arrwhidev.github.io/categories/particles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Particles</title>
+      <link>https://arrwhidev.github.io/experiments/particles/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://arrwhidev.github.io/experiments/particles/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&#34;utf-8&#34;&gt;
+        &lt;title&gt;Particles&lt;/title&gt;
+        &lt;style media=&#34;screen&#34;&gt;
+            #canvas {
+                display: block;
+                background-color: white;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 50;
+            }
+            #canvas2 {
+                display: none;
+            }
+            #stats {
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 100;
+            }
+        &lt;/style&gt;
+        &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id=&#34;stats&#34;&gt;&lt;/div&gt;
+        &lt;canvas id=&#34;canvas&#34;&gt;&lt;/canvas&gt;
+        &lt;canvas id=&#34;canvas2&#34;&gt;&lt;/canvas&gt;
+        &lt;script src=&#34;https://cdn.rawgit.com/arrwhidev/particles/master/dist/bundle.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

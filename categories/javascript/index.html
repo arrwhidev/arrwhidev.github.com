@@ -24,7 +24,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-04-15T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-05-13T00:00:00&#43;00:00"/>
 
 
 
@@ -175,6 +175,12 @@
     }
 
      
+    header {
+        z-index: 9999 !important;
+        position: relative;
+    }
+
+     
     html,body {
         height: 101%;
     }
@@ -213,9 +219,6 @@
         background-color: #00bcd4;
         color: black !important;
     }
-    nav {
-        background-color: #000;
-    }
     nav a {
         color: white !important;
     }
@@ -250,6 +253,12 @@
         font-style: italic !important;
         font-size: 14px !important;
     }
+    blockquote {
+        padding-left: 40px !important;
+    }
+    blockquote::after {
+        padding-left: 20px !important;
+    }
 </style>
 
     
@@ -265,6 +274,8 @@
       <a itemprop="url" class="" href="/"><span itemprop="name">Home</span></a>
     
       <a itemprop="url" class="" href="/about/"><span itemprop="name">About</span></a>
+    
+      <a itemprop="url" class="" href="/experiments/"><span itemprop="name">Experiments</span></a>
     
       <a itemprop="url" class="" href="/post/"><span itemprop="name">Posts</span></a>
     
@@ -284,6 +295,23 @@
   <header>
     <h1>Javascript</h1>
   </header>
+  
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+  <header>
+    <h2 itemprop="headline">
+      <a href="https://arrwhidev.github.io/experiments/particles/">Particles</a>
+    </h2>
+    
+  </header>
+  
+    <blockquote itemprop="about">Particle system experimentation.</blockquote>
+  
+  <div itemprop="description">
+      Particles #canvas { display: block; background-color: white; position: fixed; top: 0; left: 0; z-index: 50; } #canvas2 { display: none; } #stats { position: fixed; top: 0; left: 0; z-index: 100; }            
+  </div>
+  
+</article>
+
   
     <article itemscope itemtype="http://schema.org/CreativeWork">
   <header>

@@ -175,6 +175,12 @@
     }
 
      
+    header {
+        z-index: 9999 !important;
+        position: relative;
+    }
+
+     
     html,body {
         height: 101%;
     }
@@ -213,9 +219,6 @@
         background-color: #00bcd4;
         color: black !important;
     }
-    nav {
-        background-color: #000;
-    }
     nav a {
         color: white !important;
     }
@@ -250,6 +253,12 @@
         font-style: italic !important;
         font-size: 14px !important;
     }
+    blockquote {
+        padding-left: 40px !important;
+    }
+    blockquote::after {
+        padding-left: 20px !important;
+    }
 </style>
 
     
@@ -265,6 +274,8 @@
       <a itemprop="url" class="" href="/"><span itemprop="name">Home</span></a>
     
       <a itemprop="url" class="active" href="/about/"><span itemprop="name">About</span></a>
+    
+      <a itemprop="url" class="" href="/experiments/"><span itemprop="name">Experiments</span></a>
     
       <a itemprop="url" class="" href="/post/"><span itemprop="name">Posts</span></a>
     
